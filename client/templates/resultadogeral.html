@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado</title>
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <a id="logo" href="../index.html">Candidate Tracker</a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="./candidatos.html">Candidato</a></li>
+                <li><a href="./cargos.html">Cargo</a></li>
+                <li><a href="./municipios.html">Município</a></li>
+                <li><a href="./resultadogeral.html">Resultado geral</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="top">
+            <h1>Mostrando resultado geral</h1>
+            <div class="search">
+                <input type="checkbox" id="apenaseleitos" name="1">
+                <label for="apenaseleitos">Mostrar apenas eleitos</label>
+            </div>
+        </div>
+        <div class="cards">
+        </div>
+    </main>
+    <script src="../js/menu.js"></script>
+    <script src="../js/allResults.js"></script>
+</body>
+
+</html>
